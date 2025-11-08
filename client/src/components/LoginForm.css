@@ -1,0 +1,53 @@
+.login-form-container {
+    /* Center the container or adjust positioning as needed */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .centered-input {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px; 
+  }
+
+
+  /* Style form fields */
+  label {
+    margin-bottom: 8px;
+    font-size: 16px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    font-size: 14px;
+  }
+  
+  /* Style the button */
+  button {
+    padding: 10px 20px;
+    background-color: #4caf50; /* Green color, you can change this */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  button:disabled {
+    background-color: #cccccc; /* Light gray for disabled state */
+    cursor: not-allowed;
+  }
+  
+  /* Error message style */
+  p {
+    color: red;
+    margin-top: 8px;
+    font-size: 14px;
+  }

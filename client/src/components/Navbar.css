@@ -1,0 +1,49 @@
+/* Navbar.css */
+
+.navbar {
+  background: linear-gradient(to right, #500550, #0e769b);
+  padding: 10px;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  gap: 67px;
+}
+
+li {
+  font-size: 20px;
+}
+
+/* Add media query for smaller screens */
+@media screen and (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  li {
+    font-size: 18px;
+  }
+
+  ul:not(.open) {
+    display: none;
+  }
+
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-toggle i {
+    font-size: 24px;
+  }
+}
+
+/* Hide drop icon for larger screens */
+@media screen and (min-width: 769px) {
+  .menu-toggle {
+    display: none;
+  }
+}

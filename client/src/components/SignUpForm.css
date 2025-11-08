@@ -1,0 +1,45 @@
+/* SignUpForm.css */
+
+.form-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 50px;
+    border: 5px solid #1da774;
+    border-radius: 40px;
+    
+    
+    
+  }
+  
+  .form-container label {
+    display: block;
+    margin-bottom: 8px;
+    
+  }
+  
+  .form-container input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    
+  }
+  
+  .form-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-container button:hover {
+    background-color: #2980b9;
+    
+  }
+
+
+ 
+  /* Add more styles as needed */
+  

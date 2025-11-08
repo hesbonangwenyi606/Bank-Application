@@ -1,0 +1,41 @@
+/* UserAccountsPage.css */
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  border: 5px solid #22aed1;
+  border-radius: 10px;
+  animation: colorChange 5s infinite alternate; /* Add animation for color change */
+}
+
+/* @keyframes colorChange {
+  0% {
+    background-color: #f0f0f0;
+  }
+  50% {
+    background-color: #c0c0c0;
+  }
+  100% {
+    background-color: #f0f0f0;
+  }
+} */
+
+h1 {
+  color: #333;
+}
+
+button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Add styles for other elements as needed */

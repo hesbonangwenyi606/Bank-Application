@@ -1,0 +1,23 @@
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.dashboard-header {
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  text-align: left;
+}
+
+.user-info {
+  margin-top: 20px;
+  text-align: left;
+}
+
+
+
+
+
+
