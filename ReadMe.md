@@ -65,7 +65,7 @@
     flask
 
 ## Contributing
-    Contributions are welcome! Feel free to submit issues or pull requests.
+    Contributions are welcome! Feel free to submit issues or pull requests to make the project understooble.
 
 ## License
     This project is licensed under the MIT License.
